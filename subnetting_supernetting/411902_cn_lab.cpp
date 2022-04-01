@@ -1,4 +1,6 @@
 #include <iostream>
+#include <string.h>
+#include <math.h>
 
 using namespace std;
 int main()
@@ -140,8 +142,8 @@ int main()
             m = ta;
         }
         cout << "The class is" << classtype << endl;
-        (float)throughput = (float)hosts / (float)k;
-        cout << "Throughput = " << hosts / k << "%" << endl;
+        float throughput = (float)hosts / (float)k;
+        cout << "Throughput = " << throughput << "%" << endl;
     }
     return 1;
 }
